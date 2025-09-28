@@ -27,6 +27,13 @@ class HomeScreen extends StatelessWidget {
                 },
               ),
             ),
+            const SizedBox(height: 16),
+            ElevatedButton(
+              onPressed: () {
+                print("Simulate Access button clicked");
+              },
+              child: const Text('Simulate Access Button'),
+            ),
           ],
         ),
       ),
